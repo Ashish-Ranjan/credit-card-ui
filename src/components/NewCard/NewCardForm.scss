@@ -1,0 +1,66 @@
+@import "../../utilities/sass/variables.scss";
+
+.newCard_controls,
+.newCard_actions {
+  margin-bottom: 1rem;
+}
+.newCard_control {
+  width: 100%;
+}
+
+button {
+  background: $button-bg;
+  border: solid 1px $button-border;
+  padding: 0.25rem 2rem;
+  color: $button-font;
+  &:hover {
+    background: #f5f5f5;
+    color: #000000;
+    transition: 500ms;
+  }
+}
+
+input {
+  padding: 0.5rem;
+  border: 0.1rem solid $button-border;
+  min-width: 25%;
+  &:focus {
+    border: 0.1rem solid $button-border;
+    outline: 0.1rem;
+    background: #f5f5f5;
+  }
+}
+
+.newCard_control.invalid input {
+    color: #D8000C;
+    background: #FFD2D2;
+  }
+
+.newCard_control.invalid label {
+  color: #D8000C;
+}
+
+@media all and (max-width: 767px) {
+  input {
+    padding: 0.5rem;
+    border: 0.1rem solid $button-border;
+    min-width: 96%;
+    &:focus {
+      border: 0.1rem solid $button-border;
+      outline: 0.1rem;
+      background: #f5f5f5;
+    }
+  }
+}
+@media all and (max-width: 430px) {
+  input {
+    padding: 0.5rem;
+    border: 0.1rem solid $button-border;
+    min-width: 90%;
+    &:focus {
+      border: 0.1rem solid $button-border;
+      outline: 0.1rem;
+      background: #f5f5f5;
+    }
+  }
+}

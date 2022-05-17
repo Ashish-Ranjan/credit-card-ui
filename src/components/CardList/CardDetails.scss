@@ -1,0 +1,30 @@
+@import "../../utilities/sass/variables.scss";
+
+.flex-row {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0.5em 0.5em;
+  border-right: solid 1px $table-border;
+  border-bottom: solid 1px $table-border;
+}
+
+@media all and (max-width: 767px) {
+  .flex-row {
+    width: calc(100% / 3); //1px = border right
+
+    &.first {
+      width: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 430px) {
+  .flex-row {
+    width: 100%; //1px = border right
+
+    &.first {
+      width: 100%;
+      border-bottom: solid 1px $table-border;
+    }
+  }
+}
