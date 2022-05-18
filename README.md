@@ -12,7 +12,7 @@ REACT_APP_API=http://localhost:3001
 ## Dependency
 
 Download [API Server](https://github.com/Ashish-Ranjan/credit-card-api) 
-Start the API Server. Refer: [README] 
+Start the API Server. Refer: [README](https://github.com/Ashish-Ranjan/credit-card-api#readme) 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
