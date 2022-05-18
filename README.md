@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# Getting Started with Credit Card System
+
+## Setup
+
+create `.env` file in root folder.
+as `sample.env` has been provided.
+
+## .env
+
+REACT_APP_API=http://localhost:3001
+
+## Dependency
+
+Download [API Server](https://github.com/Ashish-Ranjan/credit-card-api) 
+Start the API Server. Refer: [README] 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project is created using.
+### `react.js`
+### `node.js`
+### `jest`
 
 ## Available Scripts
 
