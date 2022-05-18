@@ -20,6 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project is created using.
 ### `react.js`
 ### `node.js`
+### `sass`
 ### `jest`
 
 ## Available Scripts
