@@ -64,8 +64,7 @@ const NewCardForm = (props) => {
     const NewCardDetails = {
       name: enteredName,
       cardnumber: enteredCardNumber,
-      limit: enteredLimit,
-      balance: 0,
+      limit: Number(enteredLimit),
     };
     props.onAddNewCardDetails(NewCardDetails);
     setEnteredName("");

@@ -5,11 +5,7 @@ import NewCardForm from "./NewCardForm";
 
 const AddNewCard = (props) => {
   const addNewCardDetailsHandler = (enteredNewCardDetails) => {
-    const newCardDetails = {
-      ...enteredNewCardDetails,
-      id: Math.random().toString(),
-    };
-    props.onAddNewCardDetails(newCardDetails);
+    props.onAddNewCardDetails(enteredNewCardDetails);
   };
   return (
     <Wrapper>

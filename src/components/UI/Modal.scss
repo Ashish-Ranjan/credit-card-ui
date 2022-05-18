@@ -1,0 +1,47 @@
+@import "../../utilities/sass/variables.scss";
+
+button {
+  background: $button-bg;
+  border: solid 1px $button-border;
+  padding: 0.25rem 2rem;
+  color: $button-font;
+  &:hover {
+    background: #f5f5f5;
+    color: #000000;
+    transition: 500ms;
+  }
+}
+
+.model-bg {
+  position: fixed;
+  background: #00000085;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.model-holder {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  right: 5%;
+  top: 10rem;
+  background: #fff;
+  max-width: 500px;
+  margin: auto;
+}
+
+.modal-title {
+  background: lightgrey;
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-description {
+  padding: 2rem;
+}
+
+.modal-botton {
+  padding: 1rem 2rem;
+}

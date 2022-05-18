@@ -18,7 +18,7 @@ const Table = (props) => {
         />
         {props.cardList.map((cardDetails) => (
           <CardDetails
-            key={cardDetails.id}
+            key={cardDetails._id}
             name={cardDetails.name}
             cardnumber={cardDetails.cardnumber}
             balance={cardDetails.balance}
